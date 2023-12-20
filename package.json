@@ -1,0 +1,16 @@
+{
+  "name": "cette",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A small javascript frontent framework",
+  "main": "index.js",
+  "workspaces": [
+    "packages/runtime"
+  ],
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "C5m7b4",
+  "license": "ISC"
+}
